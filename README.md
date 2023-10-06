@@ -1,1 +1,0 @@
-# Turkish_MP_Prediction
