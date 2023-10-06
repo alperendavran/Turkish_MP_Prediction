@@ -4,10 +4,9 @@ import requests as req
 import json
 import os
 
-LINK_LIST_PATH = "C:\\Users\\koezgen\\Desktop\\dir\\data\\mv_links"
-TARGET_DIR = "C:\\Users\\koezgen\\Desktop\\dir\\data\\mv_jsons"
-PARSED_LINKS_PATH = "C:\\Users\\koezgen\\Desktop\\dir\\data\\mv_links\\parsed_links.txt"
-
+LINK_LIST_PATH = " "
+TARGET_DIR = " "
+PARSED_LINKS_PATH = " "
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")  # Ensure GUI is off, which speeds up the script
 prefs = {"profile.managed_default_content_settings.images": 2, 
